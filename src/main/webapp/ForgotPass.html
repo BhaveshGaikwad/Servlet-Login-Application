@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Forgot Password</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/ForgotPass.css"/>
+    </head>
+    <body>
+     	<h1 class="center">Reset Password</h1>
+	<div class="container">
+	<form action="ForgotPass" method="post">
+            <div id="box">
+		<table>
+			<tr>
+				<td>Enter Email Id:</td>
+				<td><input type="email" name="Email" class="in"></td>
+			</tr>
+                        <tr>
+                            <td>Enter Date of Birth:</td>
+                            <td><input type="date" min="1960-01-01" max="2002-12-31" name="Birth_Date" class="in"></td>
+                        </tr>
+		</table>
+		<div id="submit" class="center" class="clickme default"><input type="submit" name="submit" ></div>
+		</div>
+	</form>
+
+	<div>
+		<h3 >Login <a href="Login.html" class="clickme success">Click here to Login</a></h3>
+		<h3>New User? <a href="index.html" class="clickme info">Click here to Register</a></h3>
+	</div>
+	</div>
+    </body>
+</html>

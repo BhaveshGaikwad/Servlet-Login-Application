@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ForgotPassOTP</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+       <h1>Verify Yourself!</h1>
+          <span>We have already send you a verification OTP code to your Email.</span>
+           <form action="ForgotPassOTP" method="post">
+               <table>
+			<tr>
+				<td>ReEnter Email Id:</td>
+				<td><input type="email" name="Email" ></td>
+			</tr>
+                        <tr>
+                            <td>Enter OTP:</td>
+                            <td><input type="text" name="authcode"></td>
+                        </tr>
+                        <tr>
+				<td>New Password: </td>
+				<td><input type="password" name="password" class="in"></td>
+			</tr>
+                        
+		</table>
+               <input type="submit" >
+           </form>
+    </body>
+</html>

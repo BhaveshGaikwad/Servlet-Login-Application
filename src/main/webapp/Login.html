@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Login</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/Login.css"/>
+    </head>
+    <body>
+    	     <h1 class="center">Login</h1>
+	     <div class="container">
+		<form action="Login" method="post">
+                    <div id="box">
+			<table>
+			<tr>
+				<td>Email ID: </td>
+				<td><input type="email" name="email" class="in"></td>
+			</tr>
+
+			<tr>
+				<td>Password: </td>
+				<td><input type="password" name="password" class="in"></td>
+			</tr>
+		</table>
+		<div id="submit" class="center" class="clickme default">
+			<input type="submit" name="insert">
+		</div>
+		</div>
+		</form>
+
+		<div>
+                        <h3>First Time Login? <a href="FirstLogin.html" class="clickme success">Click Here</a></h3>
+			<h3>Forgot Password? <a href="ForgotPass.html" class="clickme danger">Click Here</a></h3>
+			<h3>New User? <a href="index.html" class="clickme info">Click here to Register</a></h3>
+		</div>
+
+	</div>
+    </body>
+</html>
